@@ -3,6 +3,9 @@
   "version": "0.7.1",
   "description": "Natural Sort algorithm for Javascript - Version 0.7 - Released under MIT license",
   "main": "naturalSort.js",
+  "files": [
+    "naturalSort.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

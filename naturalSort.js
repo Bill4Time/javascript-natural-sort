@@ -3,7 +3,7 @@
  * Author: Jim Palmer (based on chunking idea from Dave Koelle)
  */
 /*jshint unused:false */
-module.exports = function naturalSort (a, b) {
+function naturalSort (a, b) {
 	"use strict";
 	var re = /(^([+\-]?(?:0|[1-9]\d*)(?:\.\d*)?(?:[eE][+\-]?\d+)?)?$|^0x[0-9a-f]+$|\d+)/gi,
 		sre = /(^[ ]*|[ ]*$)/g,
@@ -43,3 +43,10 @@ module.exports = function naturalSort (a, b) {
 	}
 	return 0;
 };
+
+if(typeof exports !== 'undefined') {
+	if (typeof module !== 'undefined' && module.exports) {
+	    exports = module.exports = moduleName;
+	}
+	exports = moduleName;
+}

@@ -44,6 +44,9 @@ function naturalSort (a, b) {
 	return 0;
 };
 
-if (module && module.exports) {
-	module.exports = naturalSort;
+if(typeof exports !== 'undefined') {
+	if (typeof module !== 'undefined' && module.exports) {
+	    exports = module.exports = moduleName;
+	}
+	exports = moduleName;
 }

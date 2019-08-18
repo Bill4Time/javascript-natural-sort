@@ -1,27 +1,27 @@
 {
-  "name": "javascript-natural-sort",
+  "name": "typescript-natural-sort",
   "version": "0.7.1",
-  "description": "Natural Sort algorithm for Javascript - Version 0.7 - Released under MIT license",
+  "description": "Natural Sort algorithm for Typescript/Javascript - Version 0.7 - Released under MIT license",
   "main": "naturalSort.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bill4Time/javascript-natural-sort.git"
+    "url": "https://github.com/tedgreen29/typescript-natural-sort.git"
   },
   "keywords": [
     "natural",
     "sort",
-    "javascript",
+    "typescript",
     "array",
     "sort",
     "sorting"
   ],
-  "author": "Jim Palmer (based on chunking idea from Dave Koelle, packaged by @khous of Bill4Time)",
+  "author": "Jim Palmer (based on chunking idea from Dave Koelle, packaged by Ted Green with typescript updates)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Bill4Time/javascript-natural-sort/issues"
+    "url": "https://github.com/tedgreen29/typescript-natural-sort/issues"
   },
-  "homepage": "https://github.com/Bill4Time/javascript-natural-sort"
+  "homepage": "https://github.com/tedgreen29/typescript-natural-sort"
 }
